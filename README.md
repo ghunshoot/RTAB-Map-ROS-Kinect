@@ -9,6 +9,11 @@ $ sudo apt-get install libsqlite3-dev libpcl-dev libopencv-dev git cmake libproj
 ```
 /////////////////////////////
 sudo apt-get install -f
+poniendo todos los checkmarks
+
+libfreenect
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -std=c++11")
 
 Installing g2o
 ```
