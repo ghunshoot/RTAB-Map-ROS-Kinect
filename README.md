@@ -5,10 +5,12 @@ Ubuntu 16.04
 ## Installation of RTAB map Linux
 ```
 $ sudo apt-get update
+$ sudo apt-get install -f
 $ sudo apt-get install libsqlite3-dev libpcl-dev libopencv-dev git cmake libproj-dev libqt5svg5-dev libsuitesparse-dev
+$ sudo apt-get install -f
 ```
 /////////////////////////////
-sudo apt-get install -f
+
 poniendo todos los checkmarks
 
 libfreenect
