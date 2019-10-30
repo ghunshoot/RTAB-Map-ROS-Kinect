@@ -1,5 +1,7 @@
 # SLAM with Kinect Xbox-360 and RTAB-Map
 
+Ubuntu 16.04
+
 ## Installation of RTAB map Linux
 ```
 $ sudo apt-get update
@@ -34,6 +36,7 @@ $ cd rtabmap/build
 $ cmake ..
 $ make -j4
 $ sudo make install
+$ ldconfig
 ```
 ## Installation of RTAB map MacOs
 https://apple.stackexchange.com/questions/208478/how-do-i-disable-system-integrity-protection-sip-aka-rootless-on-macos-os-x
