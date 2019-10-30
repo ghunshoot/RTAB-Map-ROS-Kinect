@@ -13,14 +13,15 @@ $ sudo apt-get install -f
 
 poniendo todos los checkmarks
 
-libfreenect
 
+libfreenect
+en CMakeLists.txt
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -std=c++11")
 
 Installing g2o
 ```
 $ git clone https://github.com/RainerKuemmerle/g2o.git 
-$ cd g2o
+$ cd g2oe
 $ mkdir build
 $ cd build
 $ cmake -DBUILD_WITH_MARCH_NATIVE=OFF -DG2O_BUILD_APPS=OFF -DG2O_BUILD_EXAMPLES=OFF -DG2O_USE_OPENGL=OFF ..
