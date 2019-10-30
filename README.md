@@ -7,6 +7,8 @@ Ubuntu 16.04
 $ sudo apt-get update
 $ sudo apt-get install libsqlite3-dev libpcl-dev libopencv-dev git cmake libproj-dev libqt5svg5-dev libsuitesparse-dev
 ```
+/////////////////////////////
+sudo apt-get install -f
 
 Installing g2o
 ```
@@ -40,3 +42,14 @@ $ ldconfig
 ```
 ## Installation of RTAB map MacOs
 https://apple.stackexchange.com/questions/208478/how-do-i-disable-system-integrity-protection-sip-aka-rootless-on-macos-os-x
+
+
+
+sudo add-apt-repository ppa:linuxuprising/java
+
+sudo apt-get update
+
+sudo apt-get install oracle-java13-installer
+
+sudo apt-get install graphviz
+sudo apt-get install doxygen
