@@ -9,4 +9,7 @@
 ## Installing
 ### Installing Libfreenect
 
+  sudo apt-get install ros-indigo-freenect-launch
+
 ### Installing rtabmap-ros
+  sudo apt-get install ros-kinetic-rtabmap-ros
