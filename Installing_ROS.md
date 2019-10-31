@@ -4,7 +4,10 @@ The official documentation and installation is [here](http://wiki.ros.org/kineti
 First we start checkmarking all in System Settings > Software and Updates > Ubuntu Software, Other Software, and Updates.
 Also in Ubuntu Software we select `Download from: Main`. Notice when close the window it will start updating the cache. When finish updating it bring back "Failed to download repository information", ignore and go on.
 
-![alt text](https://github.com/ghunshoot/RTAB-Map-ROS-Kinect/blob/master/Img/1.png)![alt text](https://github.com/ghunshoot/RTAB-Map-ROS-Kinect/blob/master/Img/2.png)
+![alt text](https://github.com/ghunshoot/RTAB-Map-ROS-Kinect/blob/master/Img/1.png)
+
+![alt text](https://github.com/ghunshoot/RTAB-Map-ROS-Kinect/blob/master/Img/2.png)
+
 ![alt text](https://github.com/ghunshoot/RTAB-Map-ROS-Kinect/blob/master/Img/3.png)
 
 Setup your sources.list.
