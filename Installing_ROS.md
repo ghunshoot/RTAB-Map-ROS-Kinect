@@ -46,9 +46,10 @@ Test we have correctly setup the environment
 ```
 $ printenv | grep ROS
 ```
-Setup bash,
+Setup bash
+```
 source /opt/ros/kinetic/setup.bash
-
+```
 Create a ROS Workspace
 ```
 $ mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/
