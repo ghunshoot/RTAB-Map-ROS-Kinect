@@ -27,3 +27,5 @@ $ roslaunch freenect_launch freenect.launch depth_registration:=true\
 ```
 $ roslaunch rtabmap_ros rtabmap.launch rtabmap_args:="--delete_db_on_start"
 ```
+A window like this will open
+![alt text](https://github.com/ghunshoot/RTAB-Map-ROS-Kinect/blob/master/Img/4.png)
