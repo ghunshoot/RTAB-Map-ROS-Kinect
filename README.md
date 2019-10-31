@@ -5,3 +5,8 @@
 
 * ROS Kinetic ([Installation](https://github.com/ghunshoot/SLAM/blob/master/Installing_ROS.md)).
 * Libfreenect.
+
+## Installing
+### Installing Libfreenect
+
+### Installing rtabmap-ros
