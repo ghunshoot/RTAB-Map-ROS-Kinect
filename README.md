@@ -8,12 +8,13 @@
 
 ## Installing
 ### Installing Libfreenect
-
-  sudo apt-get install ros-kinetic-freenect-launch
-
+```
+  $ sudo apt-get install ros-kinetic-freenect-launch
+```
 ### Installing rtabmap-ros
-  sudo apt-get install ros-kinetic-rtabmap-ros
-
+```
+  $ sudo apt-get install ros-kinetic-rtabmap-ros
+```
 ## Testing
 In two different terminals 
 ```
