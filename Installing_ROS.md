@@ -40,4 +40,5 @@ $ source ~/.bashrc
 Dependencies for building packages
 ```
 $ sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
+$ sudo apt-get install python-catkin-tools python3-dev python3-numpy
 ```
