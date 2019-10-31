@@ -42,3 +42,20 @@ Dependencies for building packages
 $ sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
 $ sudo apt-get install python-catkin-tools python3-dev python3-numpy
 ```
+Test we have correctly setup the environment
+```
+$ printenv | grep ROS
+```
+Setup bash,
+source /opt/ros/kinetic/setup.bash
+
+Create a ROS Workspace
+```
+$ mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/
+# For working in Python3.7
+$ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.7m -DPYTHON_LIBRARY=/usr/lib/libpython3.7m.so
+# For working in Python3.5
+$ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.5m -DPYTHON_LIBRARY=/usr/lib/libpython3.5m.so
+$ source devel/setup.bash
+$ echo $ROS_PACKAGE_PATH # return this path /home/youruser/catkin_ws/src:/opt/ros/kinetic/share
+```
