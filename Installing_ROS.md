@@ -1,10 +1,11 @@
 # Ros Installation
-The official documentation and installation is here: http://wiki.ros.org/kinetic/Installation/Ubuntu, but I presented some issues. Here I explain how I can install Kinetic ROS in Ubuntu 16.04 10/31/2019.
+The official documentation and installation is here: http://wiki.ros.org/kinetic/Installation/Ubuntu, but I presented some issues. Here I will show how I could install correctly Kinetic ROS in Ubuntu 16.04 10/31/2019.
+
 First we start checkmarking all in System Settings > Software and Updates > Ubuntu Software, Other Software, and Updates.
 Also in Ubuntu Software we select `Download from: Main`. Notice when close the window it will start updating the cache. When finish updating it bring back "Failed to download repository information", ignore and go on.
+
 IMAGES 
 
-In terminal.
 Setup your sources.list.
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
