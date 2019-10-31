@@ -23,14 +23,20 @@ $ sudo apt-get install -f
 $ sudo apt-get install ros-kinetic-desktop-full
 
 ```
+Initialize rosdep
 ```
 $ sudo rosdep init
 $ rosdep update
-
+```
+Environment setup
+```
 $ echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
-
+```
+Dependencies for building packages
+```
 $ sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
-
+```
+```
 $ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.7m -DPYTHON_LIBRARY=/usr/lib/libpython3.7m.so
 ```
