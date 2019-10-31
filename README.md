@@ -11,6 +11,10 @@
 ```
   $ sudo apt-get install ros-kinetic-freenect-launch
 ```
+Test your kinect
+```
+freenect-glview
+```
 ### Installing rtabmap-ros
 ```
   $ sudo apt-get install ros-kinetic-rtabmap-ros
