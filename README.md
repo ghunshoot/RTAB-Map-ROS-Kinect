@@ -13,6 +13,12 @@ sudo apt-get update
 sudo apt-get install ros-kinetic-desktop-full
 
 sudo apt-get install -f
+python3-rosdistro
+
+catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.7m -DPYTHON_LIBRARY=/usr/lib/libpython3.7m.so
+
+
+python3-rosdistro 
 
 
 ## Installation of RTAB map Linux
