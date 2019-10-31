@@ -11,16 +11,16 @@
 ```
   $ sudo apt-get install ros-kinetic-freenect-launch
 ```
-Test your kinect
+Test your kinect.
 ```
-freenect-glview
+$ freenect-glview
 ```
 ### Installing rtabmap-ros
 ```
   $ sudo apt-get install ros-kinetic-rtabmap-ros
 ```
 ## Testing
-In two different terminals 
+In two different terminals. 
 ```
 $ roslaunch freenect_launch freenect.launch depth_registration:=true\
 ```
