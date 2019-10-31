@@ -30,11 +30,13 @@ $ sudo apt-get install ros-kinetic-desktop-full
 Initialize rosdep
 ```
 $ sudo rosdep init
+
 $ rosdep update
 ```
 Environment setup
 ```
 $ echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+
 $ source ~/.bashrc
 ```
 Dependencies for building packages
@@ -53,10 +55,14 @@ source /opt/ros/kinetic/setup.bash
 Create a ROS Workspace
 ```
 $ mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/
+
 # For working in Python3.7
 $ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.7m -DPYTHON_LIBRARY=/usr/lib/libpython3.7m.so
+
 # For working in Python3.5
 $ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.5m -DPYTHON_LIBRARY=/usr/lib/libpython3.5m.so
+
 $ source devel/setup.bash
+
 $ echo $ROS_PACKAGE_PATH # return this path /home/youruser/catkin_ws/src:/opt/ros/kinetic/share
 ```
