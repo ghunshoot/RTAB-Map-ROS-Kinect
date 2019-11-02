@@ -50,3 +50,5 @@ $ cd ~/catkin_workspace/src
 $ git clone https://github.com/ros-drivers/freenect_stack.git
 $ cd ..
 $ catkin_make
+Problemas con el freenect 
+Usar mejor: sudo apt-get install ros-melodic-openni-launch
