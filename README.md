@@ -38,6 +38,9 @@ $ git clone https://github.com/OpenKinect/libfreenect.git
 $ cd libfreenect    
 $  mkdir build   
 $ cd build    
+
+sudo apt-get install ros-fuerte-openni-launch
+
 $ cmake -L ..    
 $ make
 $ sudo make install
