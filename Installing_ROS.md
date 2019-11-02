@@ -53,10 +53,14 @@ source /opt/ros/kinetic/setup.bash
 ```
 Create a ROS Workspace
 ```
+$ pip install catkin_pkg or pip3 install catkin_pkg (if you're using pip3)
 $ mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/
 
 # For working in Python3.7
 $ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.7m -DPYTHON_LIBRARY=/usr/lib/libpython3.7m.so
+
+# For working in Python3.6
+$ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m -DPYTHON_LIBRARY=/usr/lib/libpython3.6m.so
 
 # For working in Python3.5
 $ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/include/python3.5m -DPYTHON_LIBRARY=/usr/lib/libpython3.5m.so
