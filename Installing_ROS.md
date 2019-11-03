@@ -1,5 +1,5 @@
 # Ros Installation
-The official documentation and installation is [here](http://wiki.ros.org/kinetic/Installation/Ubuntu), but I presented some issues. Here I will show how I could install correctly ROS Kinetic in Ubuntu 16.04 (10/31/2019).
+The official documentation and installation is [here](http://wiki.ros.org/kinetic/Installation/Ubuntu), but I presented some issues. Here I will show how I could install correctly ROS Kinetic in Ubuntu 16.04 or Melodic in Ubuntu 18.04 (11/02/2019).
 
 First we start checkmarking all in System Settings > Software and Updates > Ubuntu Software, Other Software, and Updates.
 Also in Ubuntu Software we select `Download from: Main`. Notice when close the window it will start updating the cache. When finish updating it bring back "Failed to download repository information", ignore and go on.
@@ -18,7 +18,7 @@ Set up your keys.
 ```
 $ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 ```
-Proceed to install ROS Kinetic.
+Proceed to install ROS Kinetic or Melodic.
 ```
 $ sudo apt-get update
 
@@ -32,6 +32,9 @@ For melodic
 ```
 $ sudo apt install ros-melodic-desktop-full
 ```
+
+If you get an error in some packages you can repeat this command: `$ sudo apt-get install -f`
+
 Initialize rosdep.
 ```
 $ sudo rosdep init
