@@ -81,5 +81,5 @@ $ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3 -DPYTHON_INCLUDE_DIR=/usr/inc
 
 $ source devel/setup.bash
 
-$ echo $ROS_PACKAGE_PATH # return this path /home/youruser/catkin_ws/src:/opt/ros/kinetic/share
+$ echo $ROS_PACKAGE_PATH # return this path /home/youruser/catkin_ws/src:/opt/ros/<distro>/share
 ```
