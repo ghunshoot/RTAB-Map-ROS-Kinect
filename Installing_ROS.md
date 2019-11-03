@@ -56,8 +56,13 @@ $ sudo apt install python-rosinstall python-rosinstall-generator python-wstool b
 $ printenv | grep ROS
 ```
 ## Setup bash.
+### For kinetic.
 ```
 source /opt/ros/kinetic/setup.bash
+```
+### For melodic
+```
+source /opt/ros/melodic/setup.bash
 ```
 ## Create a ROS Workspace.
 ```
