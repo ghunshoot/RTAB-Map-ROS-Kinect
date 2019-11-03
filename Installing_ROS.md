@@ -26,36 +26,37 @@ $ sudo apt-get install -f
 
 $ sudo apt-get install ros-kinetic-desktop-full
 
-sudo apt install ros-melodic-desktop-full
+$ sudo apt install ros-melodic-desktop-full
 
 ```
-Initialize rosdep
+Initialize rosdep.
 ```
 $ sudo rosdep init
 
 $ rosdep update
 ```
-Environment setup
+Environment setup.
 ```
 $ echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 
 $ source ~/.bashrc
 ```
-Dependencies for building packages
+Dependencies for building packages.
 ```
 $ sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential python-catkin-tools python3-dev python3-numpy 
 ```
-Test we have correctly setup the environment
+Test we have correctly setup the environment.
 ```
 $ printenv | grep ROS
 ```
-Setup bash
+Setup bash.
 ```
 source /opt/ros/kinetic/setup.bash
 ```
-Create a ROS Workspace
+Create a ROS Workspace.
 ```
-$ pip install catkin_pkg or pip3 install catkin_pkg (if you're using pip3)
+$ pip install catkin_pkg or pip3 install catkin_pkg
+
 $ mkdir -p ~/catkin_ws/src && cd ~/catkin_ws/
 
 # For working in Python3.7
