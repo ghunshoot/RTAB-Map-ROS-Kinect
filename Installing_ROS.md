@@ -10,56 +10,56 @@ Also in Ubuntu Software we select `Download from: Main`. Notice when close the w
 
 ![alt text](https://github.com/ghunshoot/RTAB-Map-ROS-Kinect/blob/master/Img/3.png)
 
-Setup your sources.list.
+## Setup your sources.list.
 ```
 $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 ```
-Set up your keys.
+## Set up your keys.
 ```
 $ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 ```
-Proceed to install ROS Kinetic or Melodic.
+## Proceed to install ROS Kinetic or Melodic.
 ```
 $ sudo apt-get update
 
 $ sudo apt-get install -f
 ```
-For kinetic.
+### For kinetic.
 ```
 $ sudo apt-get install ros-kinetic-desktop-full
 ```
-For melodic
+### For melodic
 ```
 $ sudo apt install ros-melodic-desktop-full
 ```
 
 If you get an error in some packages you can repeat this command: `$ sudo apt-get install -f`
 
-Initialize rosdep.
+## Initialize rosdep.
 ```
 $ sudo rosdep init
 
 $ rosdep update
 ```
-Environment setup. Change <distro> to melodic, or kinetic.
+## Environment setup. Change <distro> to melodic, or kinetic.
 
 ```
 $ echo "source /opt/ros/<distro>/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 ```
-Dependencies for building packages.
+## Dependencies for building packages.
 ```
 $ sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential python-catkin-tools python3-dev python3-numpy 
 ```
-Test we have correctly setup the environment.
+## Test we have correctly setup the environment.
 ```
 $ printenv | grep ROS
 ```
-Setup bash.
+## Setup bash.
 ```
 source /opt/ros/kinetic/setup.bash
 ```
-Create a ROS Workspace.
+## Create a ROS Workspace.
 ```
 $ pip install catkin_pkg or pip3 install catkin_pkg
 
