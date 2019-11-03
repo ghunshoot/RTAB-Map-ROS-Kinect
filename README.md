@@ -4,7 +4,7 @@
 * Ubuntu 16.04. 
 
 * ROS Kinetic ([Installation](https://github.com/ghunshoot/SLAM/blob/master/Installing_ROS.md)).
-* Libfreenect.
+* Libfreenect or OpenNI
 
 ## Installing
 ### Installing Libfreenect (ONLY IN UBUNTU 16.04)
