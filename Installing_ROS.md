@@ -23,11 +23,14 @@ Proceed to install ROS Kinetic.
 $ sudo apt-get update
 
 $ sudo apt-get install -f
-
+```
+For kinetic.
+```
 $ sudo apt-get install ros-kinetic-desktop-full
-
+```
+For melodic
+```
 $ sudo apt install ros-melodic-desktop-full
-
 ```
 Initialize rosdep.
 ```
@@ -35,10 +38,10 @@ $ sudo rosdep init
 
 $ rosdep update
 ```
-Environment setup.
-```
-$ echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+Environment setup. Change <distro> to melodic, or kinetic.
 
+```
+$ echo "source /opt/ros/<distro>/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 Dependencies for building packages.
