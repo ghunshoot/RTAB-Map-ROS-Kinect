@@ -42,9 +42,9 @@ $ sudo rosdep init
 $ rosdep update
 ```
 ## Environment setup.
-Change "<distro>" to melodic, or kinetic.
+Change < distro > to melodic, or kinetic.
 ```
-$ echo "source /opt/ros/<distro>/setup.bash" >> ~/.bashrc
+$ echo "source /opt/ros/< distro >/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 ## Dependencies for building packages.
