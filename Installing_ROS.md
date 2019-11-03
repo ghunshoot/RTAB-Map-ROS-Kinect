@@ -28,7 +28,7 @@ $ sudo apt-get install -f
 ```
 $ sudo apt-get install ros-kinetic-desktop-full
 ```
-### For melodic
+### For melodic.
 ```
 $ sudo apt install ros-melodic-desktop-full
 ```
@@ -60,7 +60,7 @@ $ printenv | grep ROS
 ```
 source /opt/ros/kinetic/setup.bash
 ```
-### For melodic
+### For melodic.
 ```
 source /opt/ros/melodic/setup.bash
 ```
