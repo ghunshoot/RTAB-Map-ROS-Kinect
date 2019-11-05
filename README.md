@@ -44,26 +44,3 @@ $ roslaunch rtabmap_ros rtabmap.launch rtabmap_args:="--delete_db_on_start"
 ```
 A window like this will open.
 ![alt text](https://github.com/ghunshoot/RTAB-Map-ROS-Kinect/blob/master/Img/4.png)
-
-
-##Para melodic en ubuntu 18.04
-###En el apartado de freenect:
-$ cd  ~    
-$ git clone https://github.com/OpenKinect/libfreenect.git    
-$ cd libfreenect    
-$  mkdir build   
-$ cd build    
-
-sudo apt-get install ros-fuerte-openni-launch
-
-$ cmake -L ..    
-$ make
-$ sudo make install
-  
-Dentro de Catkin
-$ cd ~/catkin_workspace/src
-$ git clone https://github.com/ros-drivers/freenect_stack.git
-$ cd ..
-$ catkin_make
-Problemas con el freenect 
-Usar mejor: sudo apt-get install ros-melodic-openni-launch
